@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LoadingScreen.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/RegistrationScene.unity
+    guid: e78fbaa9d6a30b34b90b24334da6f263
+  - enabled: 1
+    path: Assets/Scenes/ChooseScene.unity
+    guid: b264985aa3beac04b8a3897bc3b642bb
+  - enabled: 1
+    path: Assets/Scenes/YogaScene.unity
+    guid: cf3d305a3d098c14bac648b2cd27ee94
+  - enabled: 1
+    path: Assets/Scenes/MeditationScene.unity
+    guid: 63e912ef1944e564fbca6ec2eacdd387
+  - enabled: 1
+    path: Assets/Scenes/SettingsScene.unity
+    guid: dcca15888f6725248a6e344f40803058
+  - enabled: 1
+    path: Assets/Scenes/RenameScene.unity
+    guid: 0e6e43bdcf8caae4fa79bea6bccddbd4
+  - enabled: 1
+    path: Assets/Scenes/ProfileScene.unity
+    guid: aeb6aae53dbe4344ba34b323f237f2e3
+  - enabled: 1
+    path: Assets/Scenes/MeditationTrains/ShortTrain.unity
+    guid: 94bebb25d53a5a14a84d78f93052ac98
+  - enabled: 1
+    path: Assets/Scenes/MeditationTrains/MediumTrain.unity
+    guid: 118f9f38bdbd0b0449f351ee62a064dd
+  - enabled: 1
+    path: Assets/Scenes/MeditationTrains/LongTrain.unity
+    guid: 325b1fa649e2419459325c16f42a24c5
+  m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 61d4a2dfd5f9ffc43be141be731c111f, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 945191a648710f64aadd671e841d9c8e, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: ad56948dd1931cb48b0075d495558018, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 01a4613c136db5c4ebf3dacdf931c36f, type: 2}
