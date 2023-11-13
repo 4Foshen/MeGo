@@ -38,6 +38,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MeditationTrains/LongTrain.unity
     guid: 325b1fa649e2419459325c16f42a24c5
+  - enabled: 1
+    path: Assets/Scenes/YogaTrains/EasyYoga.unity
+    guid: 7bb9587fd0c06cc498d48299183872bf
+  - enabled: 1
+    path: Assets/Scenes/YogaTrains/MediumYoga.unity
+    guid: f86a5dcc87c832f45ba4d2c0fa36be6f
+  - enabled: 1
+    path: Assets/Scenes/YogaTrains/HardYoga.unity
+    guid: 17a9bf8a0dc327b4ea8cbfe1f104c896
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 61d4a2dfd5f9ffc43be141be731c111f, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 945191a648710f64aadd671e841d9c8e, type: 2}

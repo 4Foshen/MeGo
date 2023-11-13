@@ -2789,7 +2789,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29380e39f376fb469795f5b64a2a767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trainController: {fileID: 556791412}
   timerDuration: 900
   firstMinute: {fileID: 7276635088216544329}
   secondMinute: {fileID: 6130907966210127177}

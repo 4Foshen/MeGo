@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    public TrainController trainController;
+    private TrainController trainController;
 
     [SerializeField] private float timerDuration = 2f * 60f;
 
@@ -19,6 +19,10 @@ public class Timer : MonoBehaviour
     public Text firstSecond;
     public Text secondSecond;
 
+    private void Awake()
+    {
+        trainController = FindObjectOfType<TrainController>();
+    }
     private void OnEnable()
     {
         timer = timerDuration;

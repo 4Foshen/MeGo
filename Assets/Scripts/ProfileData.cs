@@ -41,6 +41,7 @@ public class ProfileData : MonoBehaviour
         _progress = PlayerPrefs.GetInt("Progress", 0);
         _username = PlayerPrefs.GetString("Username");
         _currentExp = PlayerPrefs.GetInt("Experience");
+        Debug.Log(_currentExp);
     }
     private void CalculateLevel()
     {
@@ -52,6 +53,7 @@ public class ProfileData : MonoBehaviour
         else
         {
             _level = 0;
+            _remExp = _currentExp;
         }
     }
     private void SetExpBar()
