@@ -1758,6 +1758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneChanger
       objectReference: {fileID: 0}
+    - target: {fileID: 3157054310611036909, guid: 6049054f83a549e4ab1b8a24ff37f4e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3157054310611036910, guid: 6049054f83a549e4ab1b8a24ff37f4e3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
